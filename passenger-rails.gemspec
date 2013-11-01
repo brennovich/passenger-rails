@@ -9,6 +9,7 @@ Gem::Specification.new do |gem|
   gem.summary = readme.summary
   gem.homepage = 'https://github.com/brennovich/passenger-rails'
   gem.version = Passenger::Rails::VERSION
+  gem.license = 'MIT'
 
   gem.files       = Dir['lib/**/*']
 
