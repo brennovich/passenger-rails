@@ -9,13 +9,17 @@ rails) to use passenger by default.
 
 ## Installation
 
-Add this line to your application's `Gemfile`:
+Add the following along with `gem passenger` or `gem 'passenger-enterprise-server'` in your application's `Gemfile`:
 
     gem 'passenger-rails'
 
 And then execute:
 
     $ bundle install
+
+## Upgrading
+
+If you upgrade from v0.0.x, be sure to include `gem 'passenger'` or `gem 'passenger-enterprise-server'`, depending on which you wish to use. Since both are supported, neither can be included as a dependency.
 
 ## Usage
 
